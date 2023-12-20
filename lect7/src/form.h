@@ -22,4 +22,6 @@ private:
     Ui::Form *ui;
 };
 
+QVector<int> mooreSearch(const QString &text, const QString &pattern);
+
 #endif // FORM_H
