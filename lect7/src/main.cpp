@@ -1,4 +1,4 @@
-#include <QApplication>
+#include <Q2Application>
 #include <QDebug>
 #include "bigint.hpp"
 #include <string>
