@@ -20,7 +20,7 @@ void Form::start() {
     QString str = ui->str->text();
     QString sub_str = ui->sub_str->text();
 
-    QVector<int> result = mooreSearch(str, sub_str);
+    QVector<int> result = boyerMooreSearch(str, sub_str);
 
     if (result.isEmpty()) {
         ui->result->setText("Substring not found");
